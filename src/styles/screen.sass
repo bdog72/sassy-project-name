@@ -1,12 +1,107 @@
-@import 'utility'
-
-$base-text-size: 16px
-$base-font-family: sans-serif
-
-html
-  text-size-adjust: 100%
-
 body
-  @include font-smoothing(on)
-  margin: 0
-  font: $base-text-size / 1 $base-font-family
+  background-image: url("https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/space.png")
+  background-repeat: no-repeat
+  background-size: cover
+
+header
+  display: flex
+  justify-content: center
+
+  img
+    margin-top: 100px
+
+
+  div
+    padding: 25px
+    margin-top: 50px
+    margin-left: 20px
+
+
+  h1
+    margin: auto
+    background: white
+    padding: 5px
+    border-radius: 5px 5px 0 0
+
+
+  p
+    background: white
+    padding: 10px
+    margin-top: -5px
+    border-radius: 0 0 5px 0px
+
+  .tri
+    position: absolute
+    top: 59px
+    right: 700px
+
+header
+
+section
+
+  div
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    margin-top: 200px
+    margin-bottom: -50px
+
+  img
+    border-radius: 5px
+    border: 5px solid white
+
+section
+
+// header img
+//   border-radius: 5px 5px 0 0
+
+article
+  margin: 0 10px
+
+  .art1
+    background: white
+    padding: 5px 10px
+    position: relative
+    border-radius: 0 0 5px 5px
+
+  .more
+    background: blue
+    color: white
+    text-decoration: none
+    padding: 5px
+    border-radius: 5px
+    position: absolute
+    right: 10px
+    bottom: -10px
+
+article
+
+footer
+
+  display: flex
+  flex-direction: column
+  align-items: center
+
+
+  ul li
+    display: inline
+    margin: 20px
+
+
+  li img
+    border-radius: 50px
+    height: 60px
+    width: 60px
+
+
+  .foot1
+    font-size: 2.5em
+    color: white
+    margin: 100px 0
+
+
+  .foot2
+    color: white
+    margin-top: 100px
+
+footer
